@@ -1,4 +1,4 @@
--- phpMyAdmin SQL Dump
+ phpMyAdmin SQL Dump
 -- version 4.8.2
 -- https://www.phpmyadmin.net/
 --
@@ -64,8 +64,8 @@ CREATE TABLE `questions` (
 --
 
 INSERT INTO `questions` (`id`, `theme_id`, `question`, `answer`, `published`, `author_name`, `e-mail`, `date_added`) VALUES
-(34, 15, 'Где работать ?', '', 0, 'Олегра', ' вапфыафыавы@sdfgsdfggdf.ru', '2018-12-23 11:20:21'),
-(35, 16, 'Когда пойти в отпуск?', NULL, 0, 'Инакентий', 'вфыневф@sdfsdf.ru', '2018-12-23 11:33:41');
+(34, 15, 'Где какая рыба ?', '', 0, 'Дождь', ' ghy@dfgsdfggdf.ru', '2018-12-23 11:20:21'),
+(35, 16, 'Где провести рыба?', NULL, 0, 'Инакентий', 'вфын@sdfsdf.ru', '2018-12-23 11:33:41');
 
 -- --------------------------------------------------------
 
@@ -83,8 +83,8 @@ CREATE TABLE `themes` (
 --
 
 INSERT INTO `themes` (`id`, `theme`) VALUES
-(15, 'О работе'),
-(16, 'Отдых'),
+(15, 'О рыбах'),
+(16, 'Дом'),
 (17, 'О погоде');
 
 --
@@ -135,3 +135,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
